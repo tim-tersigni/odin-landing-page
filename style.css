@@ -118,3 +118,25 @@ header {
     border-radius: 8px;
     outline: #FB8823 solid 4px;
 }
+
+
+.quote {
+    background-color: #F6ECDF;
+    color: #331d0f;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    margin: 0px;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+}
+
+.quote-author {
+    font-weight: 800;
+    text-align: right;
+}
