@@ -89,9 +89,12 @@ header {
 
 .attractions {
     text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .attractions-header {
+    margin-top: 0px;
     font-size: 36px;
     font-weight: 800;
     color: #331d0f;
@@ -139,4 +142,50 @@ header {
 .quote-author {
     font-weight: 800;
     text-align: right;
+}
+
+.call-to-action {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.action-modal {
+    background-color:#FB8823;
+    padding: 32px 112px 32px 112px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-header {
+    margin: 0px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+
+.modal-subtext {
+    margin: 0px;
+    color:#E5E7EB
+}
+
+.modal-button {
+    background-color: #FB8823;
+    color: white;
+    border: none;
+    width: 92px;
+    margin: 12px 0px 12px 0px;
+    padding: 6px 12px 6px 12px;
+    font-weight: bold;
+    border-radius: 4px;
+    outline: white solid 2px;
+}
+
+footer {
+    background-color: #331d0f;
+    color: white;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
